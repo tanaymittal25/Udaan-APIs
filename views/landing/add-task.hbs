@@ -1,0 +1,29 @@
+<div class="container" style="margin-top:10%; width:45%;">
+    <form method="POST">
+
+        <div class="form-group">
+            <label for="TaskID">Task ID: </label>
+            <input class="form-control" type="text" name="Task_Id" placeholder="Task Id">
+        </div>
+
+        <div class="form-group">
+            <label for="TaskDes">Task: </label>
+            <input class="form-control" type="text" name="Task_Des" placeholder="Description">
+        </div>
+
+        <div class="form-group">
+            <label for="TaskDes">Task Duration: </label>
+            <select class="form-control" name="Task_Dur">
+                <option selected>Hourly</option>
+                <option>Daily</option>
+                <option>Weekly</option>
+                <option>Monthly</option>
+                <option>Yearly</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">SUBMIT</button>
+        </div>
+    </form>
+</div>
